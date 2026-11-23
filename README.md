@@ -120,7 +120,9 @@ We index that world too, including surfaces no English-language directory carrie
 
 **This week** (Nov 23—29)
 
-_No new listings yet._
+- **[ApexSEO GEO & AI-Crawler Audit MCP](https://apexseo-geo-mcp.vercel.app/.well-known/x402)** — Audits web pages for AI crawler access (GPTBot, ClaudeBot, PerplexityBot), llms.txt readiness, and schema/citation signals on Base USDC from $0.01 to $0.05 per call, with free health and pricing tools. ([MCP](https://apexseo-geo-mcp.vercel.app/mcp)) ([GitHub](https://github.com/kwizzlesurp10-ctrl/apexseo-geo-mcp))
+- **[Kestrova](https://kestrova-api.onrender.com/scan)** — Slither static analysis of Solidity source for agents: `POST /scan/findings` returns every finding with file and line for $0.25, `POST /scan` adds an explanation and fix per finding plus PDF/SARIF for $1.00, USDC via x402 on Base or Solana mainnet, with a free `POST /preview` and an MCP server at `/mcp`; automated pattern detection, not an audit. Example: `POST /scan {"sources":{"Vault.sol":"pragma solidity ^0.8.20; contract V {}"}}`.
+- **[Reciprocal Ruler](https://reciprocal-ruler-x402.vercel.app/v1/quote-lock)** — Deterministic settlement oracle for agent-to-agent payments that locks a SHA-256 quote hash against a rule version before execution for $0.05 USDC on Base and reconciles a settlement into matched, partial, unpaid or unmatched with idempotent replays and an audit trail for $0.25 USDC on Base. ([Manifest](https://reciprocal-ruler-x402.vercel.app/.well-known/x402))
 
 **Last week** (Nov 16—22)
 
